@@ -217,7 +217,7 @@ app.post(
      );
     `
     const dbResponse = await db.run(insertQuery)
-    response.send('Todo Successfully Added' + dbResponse.lastID)
+    response.send('Todo Successfully Added')
   },
 )
 
